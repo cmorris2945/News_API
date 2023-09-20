@@ -2,7 +2,7 @@ import requests
 from send_email import send_email
 
 topic = "tesla"
-api_key = "116e6baec6f24dc5b3b3781b99d17658"
+api_key = "116e6baec6f24dc5b3b3781b99d1####"
 url = "https://newsapi.org/v2/everything?"\
       f"q={topic}&sortBy=publishedAt&apiKey=" \
       "116e6baec6f24dc5b3b3781b99d17658&language=en"
